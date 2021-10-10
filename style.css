@@ -94,57 +94,142 @@
 
 
 /* MEDIA QUERIES */
-/* Extra small devices (phones, 600px and down) */
-/*@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 1200px) {
+
     .curve{
-        border-radius: 17px;
+        border-radius: 40px;
     }
     
     .outer{
-        height:10%;
-    }
+        height:27%;
+}
     
     .thick-border{
-        border: 0.3rem solid white;
+        border: 0.8rem solid white;
     }
 
     .text{
-        font-size: 30px;
+        font-size: 100px;
     }
-} */
+}   
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/*
-@media only screen and (min-width: 600px) {
+
+@media only screen and (max-width: 900px) {
+
     .curve{
-        border-radius: 17px;
+        border-radius: 30px;
     }
     
     .outer{
-        height:10%;
-    }
+        height:24%;
+}
     
     .thick-border{
-        border: 0.3rem solid white;
+        border: 0.6rem solid white;
     }
 
     .text{
-        font-size: 30px;
+        font-size: 70px;
     }
-
-} */
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 700px) {
+    .curve{
+        border-radius: 25px;
+    }
+    
+    .outer{
+        height:19%;
+}
+    
+    .thick-border{
+        border: 0.55rem solid white;
+    }
 
+    .text{
+        font-size: 50px;
+    }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 500px) {
+    .curve{
+        border-radius: 17px;
+    }
+    
+    .outer{
+        height:10%;
+    }
+    
+    .thick-border{
+        border: 0.3rem solid white;
+    }
+
+    .text{
+        font-size: 30px;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 590px) {
+    .curve{
+        border-radius: 23px;
+    }
+    
+    .outer{
+        height:15%;
 }
+    
+    .thick-border{
+        border: 0.4rem solid white;
+    }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+    .text{
+        font-size: 30px;
+    }
 
 } 
+
+@media only screen and (max-width: 400px) {
+
+    .curve{
+        border-radius: 15px;
+    }
+    
+    .outer{
+        height:10%;
+}
+    
+    .thick-border{
+        border: 0.3rem solid white;
+    }
+
+    .text{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+
+    .curve{
+        border-radius: 7px;
+    }
+    
+    .outer{
+        height:5%;
+}
+    
+    .thick-border{
+        border: 0.1rem solid white;
+    }
+
+    .text{
+        font-size: 10px;
+    }
+}
+
+
